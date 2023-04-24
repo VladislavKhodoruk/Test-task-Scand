@@ -1,0 +1,282 @@
+@import url(./vars.css);
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 60.625rem;
+    }
+
+    .main__image {
+        height: 17.5rem;
+        width: 30rem;
+    }
+
+    .news__date {
+        font: var(--font-os-s);
+    }
+
+    .news__items {
+        gap: 2rem 3.125rem;
+    }
+
+    .news__text__wrapper {
+        height: 4.125rem;
+    }
+
+    .news__text {
+        font: var(--font-os-m);
+    }
+
+    .main__text {
+        font: var(--font-m-s);
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 46.875rem;
+    }
+
+     .header__button {
+        padding: 0.5rem 2.5rem;
+    }
+
+    .heading {
+        margin-bottom: 0;
+    }
+
+    .heading__subtitle {
+        font: var(--font-m-s);
+        line-height: 3.25rem;
+    }
+
+    .main {
+        gap: 4rem;
+    }
+
+    .main__image {
+        height: 17.5rem;
+        width: 25rem;
+    }
+
+    .news {
+        margin-bottom: 3rem;
+    }
+
+    .news__title {
+        font: var(--font-m-s);
+    }
+
+    .news__items {
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 2rem;
+    }
+
+    .news__text__wrapper {
+        height: 5.0625rem;
+    }
+
+    .news__text {
+        font: var(--font-os-l);
+    }
+
+    .news__button {
+        padding: 0.5rem 2.5rem;
+    }
+
+    .main__text {
+        font: var(--font-m-xs);
+    }
+
+    .hr {
+        margin-bottom: 2rem;
+    }
+
+    .cta {
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .cta__title {
+        font: var(--font-m-s);
+        line-height: 2rem;
+    }
+
+    .form__input {
+        max-width: 20rem;
+    }
+
+    .form__submit {
+        padding: 0 1.5rem;
+        font: var(--font-os-m-bold);
+        line-height: 2.5rem;
+    }
+
+    .footer {
+        gap: 7rem;
+    }
+
+    .form__submit {
+        padding: 0 2.5rem;
+        line-height: 2.5rem;
+    }
+
+    .footer__text {
+        margin-bottom: 2rem;
+    }
+
+    .footer__table__headline {
+        font: var(--font-os-m-bold);
+    }
+
+    .footer__table__item {
+        font: var(--font-os-m);
+    }
+
+    .footer__table__label {
+        padding: 0rem 0.5rem;
+        margin-left: 0.5rem;
+    }
+}
+
+@media (max-width: 765px) {
+    .container {
+        max-width: none;
+        padding: 0 2rem;
+    }
+
+    .header__logo {
+        height: 2rem;
+    }
+
+    .header__item {
+        display: none;
+    }
+
+    .header__button {
+        padding: 0.3rem 1.2rem;
+        font: var(--font-os-m-bold);
+    }
+
+    .menu__button {
+        display: block;
+        position: relative;
+    }
+
+    .menu__button div{
+        display: block;
+    }
+
+    .main {
+       flex-direction: column;
+    }
+
+    .heading__subtitle {
+        font: var(--font-m-s);
+        line-height: 3.25rem;
+    }
+
+    .news__title {
+       font: var(--font-m-xs);
+    }
+
+    .news__items {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 4rem;
+    }
+
+    .news__image {
+        height: 100%;
+        width: 100%;
+    }
+
+    .news__text__wrapper {
+        height: fit-content;
+    }
+
+    .news__text {
+        margin-bottom: 1rem;
+        font: var(--font-os-m);
+    }
+
+    .news__button {
+        padding: 0.3rem 1.2rem;
+        font: var(--font-os-m-bold);
+    }
+
+    .main__content {
+       max-width: 30rem;
+    }
+
+    .cta {
+        padding: 1rem;
+    }
+
+    .cta__circle {
+        top: -380%;
+        left: 15%;
+    }
+
+    .cta__title {
+        font: var(--font-m-xs);
+    }
+
+    .form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form__input {
+        width: 17rem;
+        padding: 0.5rem 1rem;
+        font: var(--font-os-m);
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 0 2rem;
+    }
+
+    .footer__logo {
+        height: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .footer__info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__info p {
+        max-width: 24rem;
+        font: var(--font-os-s);
+    }
+
+    .footer__text {
+        max-width: 28rem;
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
+
+    .footer__table {
+        display: none;
+    }
+
+    .footer__table__headline {
+        font: var(--font-os-s-bold);
+    }
+
+    .footer__table__item {
+        font: var(--font-os-s);
+    }
+
+    .footer__table__label {
+        height: 1.5rem;
+        font: var(--font-os-xs-bold);
+    }
+
+    .spoilers__wrapper {
+        display: block;
+    }
+}
