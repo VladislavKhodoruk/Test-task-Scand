@@ -14,7 +14,7 @@ spoilers?.forEach((el) => {
     el.addEventListener("click", () => {
         const content = el.nextElementSibling;
 
-        if (content?.style.maxHeight) {
+        if (content && content.style.maxHeight) {
             document.querySelectorAll(".spoiler__content").forEach((el) => {
                 el.style.maxHeight = null;
             });
@@ -22,10 +22,11 @@ spoilers?.forEach((el) => {
             document.querySelectorAll(".spoiler__content").forEach((el) => {
                 el.style.maxHeight = null;
             });
-            content?.style.maxHeight = content?.scrollHeight + "px";
+            content.style.maxHeight = content.scrollHeight + "px";
         }
     });
 });
+
 
 input?.addEventListener("blur", (event) => {
     const value = event.target.value;
