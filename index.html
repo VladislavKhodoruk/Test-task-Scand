@@ -1,61 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./css/main.css">
-        <link rel="icon" href="./assets/LogoShape.png" type="image/x-icon">
-        <title>Boldo</title>
-    </head>
-    <body>
-        <header class="header container">
-            <img class="header__logo" src="./assets/Logo.svg" alt="Logo"/>
-            <div class="header__menu">
-                <p class="header__item">
-                    Product
-                </p>
-                <p class="header__item">
-                    Services
-                </p>
-                <p class="header__item">
-                    About
-                </p>
-                <button class="header__button" type="button">
-                    Log in
-                </button>
-                <button class="menu__button" type='button'>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </button>
-            </div>
-            <nav class='menu__body'>
-                <ul class='menu__list'>
-                    <li>
-                        Product
-                    </li>
-                     <li>
-                        Services
-                    </li>
-                     <li>
-                        About
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <div class="heading container">
-            <p class="heading__title">
-                Blog
-            </p>
-            <p class="heading__subtitle">
-                Thoughts and words
-            </p>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon" href="./assets/LogoShape.png" type="image/x-icon">
+    <title>Boldo</title>
+</head>
+
+<body>
+    <header class="header container">
+        <a>
+            <img class="header__logo" src="./assets/Logo.svg" alt="Logo" />
+        </a>
+        <div class="header__menu">
+            <a class="header__item">
+                Product
+            </a>
+            <a class="header__item">
+                Services
+            </a>
+            <a class="header__item">
+                About
+            </a>
+            <button class="header__button" type="button">
+                Log in
+            </button>
+            <button class="menu__button" type='button'>
+                <div></div>
+                <div></div>
+                <div></div>
+            </button>
         </div>
-        <main class="main container">
-            <img class="main__image" src="./assets/MainPic.svg" alt="News image">
-            <div class="main__content">
-                <div class="news__info main__info">
+        <nav class='menu__body'>
+            <ul class='menu__list'>
+                <li>
+                    <a>
+                        Product
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        Services
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        About
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="heading container">
+        <p class="heading__title">
+            Blog
+        </p>
+        <h1 class="heading__subtitle">
+            Thoughts and words
+        </h1>
+    </div>
+    <main class="main container">
+        <img class="main__image" src="./assets/MainPic.svg" alt="News image">
+        <div class="main__content">
+            <div class="news__info main__info">
+                <p class="news__category">
+                    Category
+                </p>
+                <p class="news__date">
+                    November 22, 2021
+                </p>
+            </div>
+            <div class="main__text">
+                Pitch termsheet backing validation focus release.
+            </div>
+            <div class="author">
+                <img class="author__avatar" src="./assets/AvatarChandler.png">
+                <p class="author__name">
+                    Chandler Bing
+                </p>
+            </div>
+        </div>
+    </main>
+    <hr class="hr container" />
+    <section class="news container">
+        <h2 class="news__title">
+            Latest news
+        </h2>
+        <div class="news__items">
+            <div class="news__item">
+                <img class="news__image" src="./assets/Pic1.svg" alt="News image">
+                <div class="news__info">
                     <p class="news__category">
                         Category
                     </p>
@@ -63,8 +100,10 @@
                         November 22, 2021
                     </p>
                 </div>
-                <div class="main__text">
-                    Pitch termsheet backing validation focus release.
+                <div class="news__text__wrapper">
+                    <p class="news__text">
+                        Pitch termsheet backing validation focus release.
+                    </p>
                 </div>
                 <div class="author">
                     <img class="author__avatar" src="./assets/AvatarChandler.png">
@@ -73,233 +112,248 @@
                     </p>
                 </div>
             </div>
-        </main>
-        <hr class="hr container"/>
-        <section class="news container">
-            <p class="news__title">
-                Latest news
-            </p>
-            <div class="news__items">
-                <div class="news__item">
-                    <img class="news__image" src="./assets/Pic1.svg" alt="News image">
-                    <div class="news__info">
-                        <p class="news__category">
-                            Category
-                        </p>
-                        <p class="news__date">
-                            November 22, 2021
-                        </p>
-                    </div>
-                    <div class="news__text__wrapper">
-                        <p class="news__text">
-                            Pitch termsheet backing validation focus release.
-                        </p>
-                    </div>
-                    <div class="author">
-                        <img class="author__avatar" src="./assets/AvatarChandler.png">
-                        <p class="author__name">
-                            Chandler Bing
-                        </p>
-                    </div>
+            <div class="news__item">
+                <img class="news__image" src="./assets/Pic2.svg" alt="News image">
+                <div class="news__info">
+                    <p class="news__category">
+                        Category
+                    </p>
+                    <p class="news__date">
+                        November 22, 2021
+                    </p>
                 </div>
-                <div class="news__item">
-                    <img class="news__image" src="./assets/Pic2.svg" alt="News image">
-                    <div class="news__info">
-                        <p class="news__category">
-                            Category
-                        </p>
-                        <p class="news__date">
-                            November 22, 2021
-                        </p>
-                    </div>
-                    <div class="news__text__wrapper">
-                        <p class="news__text">
-                            Seed round direct mailing non-disclosure agreement graphical user interface rockstar.
-                        </p>
-                    </div>
-                    <div class="author">
-                        <img class="author__avatar" src="./assets/AvatarRachel.png">
-                        <p class="author__name">
-                            Rachel Green
-                        </p>
-                    </div>
+                <div class="news__text__wrapper">
+                    <p class="news__text">
+                        Seed round direct mailing non-disclosure agreement graphical user interface rockstar.
+                    </p>
                 </div>
-                <div class="news__item">
-                    <img class="news__image" src="./assets/Pic3.svg" alt="News image">
-                    <div class="news__info">
-                        <p class="news__category">
-                            Category
-                        </p>
-                        <p class="news__date">
-                            November 22, 2021
-                        </p>
-                    </div>
-                    <div class="news__text__wrapper">
-                        <p class="news__text">
-                            Beta prototype sales iPad gen-z marketing network effects value proposition
-                        </p>
-                    </div>
-                    <div class="author">
-                        <img class="author__avatar" src="./assets/AvatarMonica.png">
-                        <p class="author__name">
-                            Monica Geller
-                        </p>
-                    </div>
-                </div>
-                <div class="news__item">
-                    <img class="news__image" src="./assets/Pic4.svg" alt="News image">
-                    <div class="news__info">
-                        <p class="news__category">
-                            Category
-                        </p>
-                        <p class="news__date">
-                            November 22, 2021
-                        </p>
-                    </div>
-                    <div class="news__text__wrapper">
-                        <p class="news__text">
-                            Pitch termsheet backing validation focus release.
-                        </p>
-                    </div>
-                    <div class="author">
-                        <img class="author__avatar" src="./assets/AvatarChandler.png">
-                        <p class="author__name">
-                            Chandler Bing
-                        </p>
-                    </div>
-                </div>
-                <div class="news__item">
-                    <img class="news__image" src="./assets/Pic5.svg" alt="News image">
-                    <div class="news__info">
-                        <p class="news__category">
-                            Category
-                        </p>
-                        <p class="news__date">
-                            November 22, 2021
-                        </p>
-                    </div>
-                    <div class="news__text__wrapper">
-                        <p class="news__text">
-                            Seed round direct mailing non-disclosure agreement graphical user interface rockstar.
-                        </p>
-                    </div>
-                    <div class="author">
-                        <img class="author__avatar" src="./assets/AvatarRachel.png">
-                        <p class="author__name">
-                            Rachel Green
-                        </p>
-                    </div>
-                </div>
-                <div class="news__item">
-                    <img class="news__image" src="./assets/Pic6.svg" alt="News image">
-                    <div class="news__info">
-                        <p class="news__category">
-                            Category
-                        </p>
-                        <p class="news__date">
-                            November 22, 2021
-                        </p>
-                    </div>
-                    <div class="news__text__wrapper">
-                        <p class="news__text">
-                            Beta prototype sales iPad gen-z marketing network effects value proposition
-                        </p>
-                    </div>
-                    <div class="author">
-                        <img class="author__avatar" src="./assets/AvatarMonica.png">
-                        <p class="author__name">
-                            Monica Geller
-                        </p>
-                    </div>
+                <div class="author">
+                    <img class="author__avatar" src="./assets/AvatarRachel.png">
+                    <p class="author__name">
+                        Rachel Green
+                    </p>
                 </div>
             </div>
-            <button class="news__button" type="button">
-                Load more
-            </button>
-        </section>
-        <div class="container">
-            <div class="cta">
-                <div class="cta__circle"></div>
-                <p class="cta__title">
-                    An enterprise template to ramp up your company website
-                </p>
-                <form class="form">
-                    <input class="form__input" type="text" placeholder="Your email address">
-                    <button class="form__submit" type="submit">
-                        Start now
-                    </button>
-                </form>
+            <div class="news__item">
+                <img class="news__image" src="./assets/Pic3.svg" alt="News image">
+                <div class="news__info">
+                    <p class="news__category">
+                        Category
+                    </p>
+                    <p class="news__date">
+                        November 22, 2021
+                    </p>
+                </div>
+                <div class="news__text__wrapper">
+                    <p class="news__text">
+                        Beta prototype sales iPad gen-z marketing network effects value proposition
+                    </p>
+                </div>
+                <div class="author">
+                    <img class="author__avatar" src="./assets/AvatarMonica.png">
+                    <p class="author__name">
+                        Monica Geller
+                    </p>
+                </div>
+            </div>
+            <div class="news__item">
+                <img class="news__image" src="./assets/Pic4.svg" alt="News image">
+                <div class="news__info">
+                    <p class="news__category">
+                        Category
+                    </p>
+                    <p class="news__date">
+                        November 22, 2021
+                    </p>
+                </div>
+                <div class="news__text__wrapper">
+                    <p class="news__text">
+                        Pitch termsheet backing validation focus release.
+                    </p>
+                </div>
+                <div class="author">
+                    <img class="author__avatar" src="./assets/AvatarChandler.png">
+                    <p class="author__name">
+                        Chandler Bing
+                    </p>
+                </div>
+            </div>
+            <div class="news__item">
+                <img class="news__image" src="./assets/Pic5.svg" alt="News image">
+                <div class="news__info">
+                    <p class="news__category">
+                        Category
+                    </p>
+                    <p class="news__date">
+                        November 22, 2021
+                    </p>
+                </div>
+                <div class="news__text__wrapper">
+                    <p class="news__text">
+                        Seed round direct mailing non-disclosure agreement graphical user interface rockstar.
+                    </p>
+                </div>
+                <div class="author">
+                    <img class="author__avatar" src="./assets/AvatarRachel.png">
+                    <p class="author__name">
+                        Rachel Green
+                    </p>
+                </div>
+            </div>
+            <div class="news__item">
+                <img class="news__image" src="./assets/Pic6.svg" alt="News image">
+                <div class="news__info">
+                    <p class="news__category">
+                        Category
+                    </p>
+                    <p class="news__date">
+                        November 22, 2021
+                    </p>
+                </div>
+                <div class="news__text__wrapper">
+                    <p class="news__text">
+                        Beta prototype sales iPad gen-z marketing network effects value proposition
+                    </p>
+                </div>
+                <div class="author">
+                    <img class="author__avatar" src="./assets/AvatarMonica.png">
+                    <p class="author__name">
+                        Monica Geller
+                    </p>
+                </div>
             </div>
         </div>
-        <footer class="footer container">
-            <div class="spoilers__wrapper">
-                <button class="spoiler__title" type="button" tabindex="-1" data-spoiler>
-                    Landings
+        <button class="news__button" type="button">
+            Load more
+        </button>
+    </section>
+    <div class="container">
+        <div class="cta">
+            <div class="cta__circle"></div>
+            <p class="cta__title">
+                An enterprise template to ramp up your company website
+            </p>
+            <form class="form">
+                <input class="form__input" type="text" placeholder="Your email address">
+                <button class="form__submit" type="submit">
+                    Start now
                 </button>
-                <ul class="spoiler__content">
-                    <li>
+            </form>
+        </div>
+    </div>
+    <footer class="footer container">
+        <div class="spoilers__wrapper">
+            <button class="spoiler__title" type="button" tabindex="-1" data-spoiler>
+                Landings
+            </button>
+            <ul class="spoiler__content">
+                <li>
+                    <a>
                         Home
-                    </li>
-                     <li>
+                    </a>
+                </li>
+                <li>
+                    <a>
                         Products
-                    </li>
-                     <li>
+                    </a>
+                </li>
+                <li>
+                    <a>
                         Services
-                    </li>
-                </ul>
-                <button class="spoiler__title" type="button" tabindex="-1" data-spoiler>
-                    Company
-                </button>
-                <ul class="spoiler__content">
-                    <li>
+                    </a>
+                </li>
+            </ul>
+            <button class="spoiler__title" type="button" tabindex="-1" data-spoiler>
+                Company
+            </button>
+            <ul class="spoiler__content">
+                <li>
+                    <a>
                         Home
-                    </li>
-                     <li>
+                    </a>
+                </li>
+                <li>
+                    <a>
                         Careers
-                    </li>
-                     <li>
+                    </a>
+                </li>
+                <li>
+                    <a>
                         Services
-                    </li>
-                </ul>
-                <button class="spoiler__title" type="button" tabindex="-1" data-spoiler>
-                    Resources
-                </button>
-                <ul class="spoiler__content">
-                    <li>
+                    </a>
+                </li>
+            </ul>
+            <button class="spoiler__title" type="button" tabindex="-1" data-spoiler>
+                Resources
+            </button>
+            <ul class="spoiler__content">
+                <li>
+                    <a>
                         Blog
-                    </li>
-                     <li>
+                    </a>
+                </li>
+                <li>
+                    <a>
                         Products
-                    </li>
-                     <li>
+                    </a>
+                </li>
+                <li>
+                    <a>
                         Services
-                    </li>
-                </ul>
-            </div>
-            <div class="footer__info">
-                <img class="footer__logo" src="./assets/Logo.svg" alt="Logo"/>
-                <p class="footer__text">
-                    Social media validation business model canvas graphical user interface launch party creative facebook iPad twitter.
-                </p>
-                <p>
-                    All rights reserved.
-                </p>
-            </div>
-            <div class="footer__table">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer__info">
+            <img class="footer__logo" src="./assets/Logo.svg" alt="Logo" />
+            <p class="footer__text">
+                Social media validation business model canvas graphical user interface launch party creative facebook
+                iPad twitter.
+            </p>
+            <p>
+                All rights reserved.
+            </p>
+        </div>
+        <div class="footer__table">
+            <a>
                 <p class="footer__table__headline">Landings</p>
+            </a>
+            <a>
                 <p class="footer__table__headline">Company</p>
+            </a>
+            <a>
                 <p class="footer__table__headline">Resources</p>
+            </a>
+            <a>
                 <p class="footer__table__item">Home</p>
+            </a>
+            <a>
                 <p class="footer__table__item">Home</p>
+            </a>
+            <a>
                 <p class="footer__table__item">Blog</p>
+            </a>
+            <a>
                 <p class="footer__table__item">Products</p>
+            </a>
+            <a>
                 <p class="footer__table__item">Careers<span class="footer__table__label">Hiring!</span></p>
+            </a>
+            <a>
                 <p class="footer__table__item">Products</p>
+            </a>
+            <a>
                 <p class="footer__table__item">Services</p>
+            </a>
+            <a>
                 <p class="footer__table__item">Services</p>
+            </a>
+            <a>
                 <p class="footer__table__item">Services</p>
-            </div>
-        </footer>
-        <script src="./script.js"></script>
-    </body>
+            </a>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
 </html>
