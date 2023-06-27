@@ -280,3 +280,10 @@
         display: block;
     }
 }
+
+@media(max-width: 576px) {
+    .form__input {
+        width: auto;
+    }
+
+}
